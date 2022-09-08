@@ -12,5 +12,5 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://weaveworks.github.io/weave-gitops-profile-examples/
+  url: https://weavegitops.github.io/app-charts/
 ```
