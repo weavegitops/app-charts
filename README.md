@@ -16,4 +16,4 @@ spec:
   url: https://weavegitops.github.io/app-charts/
 ```
 
-Update
+
