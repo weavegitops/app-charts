@@ -15,3 +15,5 @@ spec:
   interval: 1m
   url: https://weavegitops.github.io/app-charts/
 ```
+
+Update
