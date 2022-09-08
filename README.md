@@ -1,8 +1,9 @@
 # app-charts
-A Git repostiory demo apps
+A Git repostiory for demo apps
 
-Add your helm charts sources to the charts directory.
+Add your helm chart sources to the charts directory.
 
+You can use this HelmRepository to define the associate Helm Repository in your Weave Gitops environment. 
 
 ```
 apiVersion: source.toolkit.fluxcd.io/v1beta1
