@@ -9,10 +9,11 @@ You can use this HelmRepository to define the associate Helm Repository in your 
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: weaveworks-charts
+  name: app-charts
   namespace: flux-system
 spec:
   interval: 1m
+  branch: gh-pages
   url: https://weavegitops.github.io/app-charts/
 ```
 
