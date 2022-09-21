@@ -51,4 +51,30 @@ entries:
     urls:
     - https://github.com/weavegitops/app-charts/releases/download/podinfo-0.0.4/podinfo-0.0.4.tgz
     version: 0.0.4
-generated: "2022-09-13T14:34:20.25692249Z"
+  podinfo-canary:
+  - annotations:
+      weave.works/category: Application
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://github.com/weavegitops/app-charts
+        - name: Upstream Project
+          url: https://github.com/stefanprodan/podinfo
+      weave.works/profile: podinfo-canary
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-09-21T08:57:47.030730596Z"
+    description: A Weaveworks Helm chart for podinfo that works with flagger
+    digest: aea4b845aab37f141cc940e12d9a5f049aefe5cbe3a33d61577652a35c164955
+    home: https://github.com/weavegitops/app-charts
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: lutz@weave.works
+      name: Lutz Lange
+    name: podinfo-canary
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    type: application
+    urls:
+    - https://github.com/weavegitops/app-charts/releases/download/podinfo-canary-0.0.5/podinfo-canary-0.0.5.tgz
+    version: 0.0.5
+generated: "2022-09-21T08:57:47.030786497Z"
