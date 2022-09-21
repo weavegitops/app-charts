@@ -1,23 +1,23 @@
 apiVersion: v2
-name: podinfo
-description: A Weaveworks Helm chart for podinfo
+name: podinfo-canary
+description: A Weaveworks Helm chart for podinfo that works with flagger
 type: application
 version: 0.0.3
 kubeVersion: ">=1.16.0-0"
-home: https://github.com/weaveworks/weave-gitops-profile-examples
+home: https://github.com/weavegitops/app-charts
 sources:
   - https://github.com/stefanprodan/podinfo
 
 annotations:
-  "weave.works/profile": podinfo
+  "weave.works/profile": podinfo-canary
   "weave.works/category": Application
   "weave.works/layer": layer-2
   "weave.works/links": |
     - name: Chart Sources
-      url: https://github.com/weaveworks/weave-gitops-profile-examples
+      url: https://github.com/weavegitops/app-charts
     - name: Upstream Project
       url: https://github.com/stefanprodan/podinfo
 
 maintainers:
-  - name: Weaveworks
-    email: support@weave.works
+  - name: "Lutz Lange"
+    email: lutz@weave.works

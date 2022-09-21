@@ -6,5 +6,5 @@ canary:
     url:
 # ingress configuration values
 ingress:
-  # set here the hostname for your ingress, ie dev24 cluster could be 'podinfo.dev24.weavegitops.com'
+  # set here the hostname for your ingress, e.g. dev24 cluster could be 'podinfo.dev24.weavegitops.com'
   host: ""
