@@ -1,0 +1,6 @@
+deployment:
+  image: ghcr.io/stefanprodan/podinfo:6.0.0
+# ingress configuration values
+ingress:
+  # set here the hostname for your ingress, e.g. dev24 cluster could be 'podinfo.dev24.weavegitops.com'
+  host: ""
