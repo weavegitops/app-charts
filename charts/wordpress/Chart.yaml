@@ -1,0 +1,33 @@
+apiVersion: v2
+name: wordpress
+icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+description: A Weaveworks Helm chart for Wordpress
+type: application
+version: 0.0.1
+dependencies:
+  - name: wordpress
+    version: "15.2.11"
+    repository: "https://charts.bitnami.com/bitnami"
+kubeVersion: ">=1.16.0-0"
+home: https://github.com/weavegitops/app-charts
+sources:
+  - https://github.com/bitnami/containers/tree/main/bitnami/wordpress
+  - https://wordpress.org/
+keywords:
+  - application
+  - blog
+  - cms
+  - http
+  - php
+  - web
+  - wordpress
+maintainers:
+  - name: Weaveworks
+    url: https://github.com/weavegitops/app-charts
+annotations:
+  "weave.works/category": CMS
+  "weave.works/links": |
+    - name: Chart Sources
+      url: https://github.com/bitnami/containers/tree/main/bitnami/wordpress
+    - name: Upstream Project
+      url: https://wordpress.org/

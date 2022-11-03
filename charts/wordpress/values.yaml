@@ -1,0 +1,46 @@
+memcached:
+  enabled: false
+mariadb:
+  enabled: true
+wordpress:
+  wordpressUsername: admin
+  wordpressPassword: cj900dsm0cjkeOII
+  wordpressFirstName: Admin
+  wordpressLastName: User
+  wordpressBlogName: A Wordpress Blog
+  wordpressPlugins: none
+  replicaCount: 3
+  service:
+    type: ClusterIP
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    hostname: wordpress.weavegitops.com
+    path: /?(.*)
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      nginx.ingress.kubernetes.io/rewrite-target: /$1
+      nginx.ingress.kubernetes.io/service-upstream: "true"
+    tls: true
+  persistence:
+    enabled: true
+    storageClass: storageos
+    accessMode: ReadWriteMany
+    size: 2Gi
+  metrics:
+    enabled: true
+  mariadb:
+    architecture: replication
+    auth:
+      rootPassword: asd3409ifvjrifn
+      replicationPassword: asdcds89u35
+      password: icei4jidscli
+    primary:
+      persistence:
+        storageClass: storageos
+        size: 2Gi
+    secondary:
+      persistence:
+        storageClass: storageos
+        size: 2Gi
+
