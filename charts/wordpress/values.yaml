@@ -32,9 +32,9 @@ wordpress:
   mariadb:
     architecture: replication
     auth:
-      rootPassword: asd3409ifvjrifn
-      replicationPassword: asdcds89u35
-      password: icei4jidscli
+      rootPassword: asd3409if23409
+      replicationPassword: asdfko89u35
+      password: icei4jdio&js
     primary:
       persistence:
         storageClass: storageos
@@ -43,4 +43,3 @@ wordpress:
       persistence:
         storageClass: storageos
         size: 2Gi
-
