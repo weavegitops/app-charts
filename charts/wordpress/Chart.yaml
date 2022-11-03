@@ -1,5 +1,5 @@
 apiVersion: v2
-name: wordpress
+name: wordpress-with-storage
 icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
 description: A Weaveworks Helm chart for Wordpress
 type: application
