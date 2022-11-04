@@ -2,9 +2,9 @@ apiVersion: v2
 name: podinfo
 description: A Weaveworks Helm chart for podinfo
 type: application
-version: 0.0.11-broken
+version: 0.0.12-broken
 appVersion : 2.1.0
-kubeVersion: ">=1.16.0-0"
+kubeVersion: ">=3.16.0-0"
 home: https://github.com/weavegitops/app-charts
 sources:
   - https://github.com/stefanprodan/podinfo
@@ -12,7 +12,7 @@ sources:
 annotations:
   "weave.works/profile": podinfo
   "weave.works/category": Application
-  "metadata.weave.works/dashboard.applicationUI": https://podinfo33.weavegitops.com 
+  "weave.works/dashboard.applicationUI": https://podinfo33.weavegitops.com 
   "weave.works/links": |
     - name: Chart Sources
       url: https://github.com/weavegitops/app-charts
