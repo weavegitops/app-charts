@@ -4,7 +4,7 @@ metadata:
   name: podinfo
 spec:
   selector:
-    app.kubernetes.io/name: PodInfo
+    app: podinfo
   ports:
     - protocol: TCP
       port: 80
