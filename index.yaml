@@ -11,6 +11,31 @@ entries:
       weave.works/profile: podinfo
     apiVersion: v2
     appVersion: 2.1.0
+    created: "2022-11-04T07:50:37.728047329Z"
+    description: A Weaveworks Helm chart for podinfo
+    digest: db9220a6ea6ce505af711f3da88f9cb93c855871d2121602e1015a4ac33949e4
+    home: https://github.com/weavegitops/app-charts
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: lutz@weave.works
+      name: Lutz Lange
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    type: application
+    urls:
+    - https://github.com/weavegitops/app-charts/releases/download/podinfo-0.0.10/podinfo-0.0.10.tgz
+    version: 0.0.10
+  - annotations:
+      weave.works/category: Application
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://github.com/weavegitops/app-charts
+        - name: Upstream Project
+          url: https://github.com/stefanprodan/podinfo
+      weave.works/profile: podinfo
+    apiVersion: v2
+    appVersion: 2.1.0
     created: "2022-11-04T07:30:03.023727743Z"
     description: A Weaveworks Helm chart for podinfo
     digest: 8cdd614cc077be1b11a4f06ebdefdc1cdb2a3e5626a41f7f3823a580812093eb
@@ -154,4 +179,4 @@ entries:
     urls:
     - https://github.com/weavegitops/app-charts/releases/download/wordpress-with-storage-0.0.1/wordpress-with-storage-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-04T07:30:03.023770644Z"
+generated: "2022-11-04T07:50:37.728056629Z"
