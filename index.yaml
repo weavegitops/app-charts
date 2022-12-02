@@ -242,6 +242,44 @@ entries:
           url: https://wordpress.org/
       weave.works/profile: wordpress
     apiVersion: v2
+    created: "2022-12-02T10:59:26.701427788Z"
+    dependencies:
+    - name: wordpress
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.2.11
+    description: A Weaveworks Helm chart for Wordpress
+    digest: d98671d04ec9a08bab1321f4991fa50001c541567997b070e9d248e3cc5d4270
+    home: https://github.com/weavegitops/app-charts
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Weaveworks
+      url: https://github.com/weavegitops/app-charts
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/wordpress
+    - https://wordpress.org/
+    type: application
+    urls:
+    - https://github.com/weavegitops/app-charts/releases/download/wordpress-0.0.3/wordpress-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      weave.works/category: CMS
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://github.com/bitnami/containers/tree/main/bitnami/wordpress
+        - name: Upstream Project
+          url: https://wordpress.org/
+      weave.works/profile: wordpress
+    apiVersion: v2
     created: "2022-11-03T16:20:43.469599729Z"
     dependencies:
     - name: wordpress
@@ -309,4 +347,4 @@ entries:
     urls:
     - https://github.com/weavegitops/app-charts/releases/download/wordpress-with-storage-0.0.1/wordpress-with-storage-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-05T10:02:47.829364336Z"
+generated: "2022-12-02T10:59:26.701462489Z"
