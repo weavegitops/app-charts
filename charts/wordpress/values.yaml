@@ -9,7 +9,7 @@ wordpress:
   wordpressLastName: User
   wordpressBlogName: A Wordpress Blog
   wordpressPlugins: none
-  replicaCount: 3
+  replicaCount: 1
   service:
     type: ClusterIP
   ingress:
@@ -30,16 +30,12 @@ wordpress:
   metrics:
     enabled: true
   mariadb:
-    architecture: replication
+    architecture: standalone
     auth:
       rootPassword: asd3409if23409
       replicationPassword: asdfko89u35
       password: icei4jdio&js
     primary:
-      persistence:
-        storageClass: local-path
-        size: 2Gi
-    secondary:
       persistence:
         storageClass: local-path
         size: 2Gi
