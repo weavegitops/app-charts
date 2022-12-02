@@ -24,7 +24,7 @@ wordpress:
     tls: true
   persistence:
     enabled: true
-    storageClass: storageos
+    storageClass: local-path
     accessMode: ReadWriteMany
     size: 2Gi
   metrics:
@@ -37,9 +37,9 @@ wordpress:
       password: icei4jdio&js
     primary:
       persistence:
-        storageClass: storageos
+        storageClass: local-path
         size: 2Gi
     secondary:
       persistence:
-        storageClass: storageos
+        storageClass: local-path
         size: 2Gi
