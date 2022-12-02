@@ -3,7 +3,7 @@ name: wordpress
 icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
 description: A Weaveworks Helm chart for Wordpress
 type: application
-version: 0.0.3
+version: 0.0.4
 dependencies:
   - name: wordpress
     version: "15.2.11"
